@@ -1,0 +1,16 @@
+;1 = input a character with echo
+;2 = Output/print a single character or number
+;8 = Input a character without echo
+;9 = print a String'abcd'
+
+mov ah,4ch
+int 21h  (21h =text handling)
+
+Accumulative = Ax(16bits), Ah,Al (8bits)
+
+Nextline = 10
+Carrage Return =13
+A= 65 
+a = 91
+0 = 48
+
